@@ -11,12 +11,14 @@ import akka.http.scaladsl.server.Directives._
 import akka.http.scaladsl.model.StatusCodes
 import akka.http.scaladsl.marshallers.sprayjson.SprayJsonSupport._
 import spray.json.DefaultJsonProtocol._
+import akka.http.scaladsl.marshallers.sprayjson.SprayJsonSupport
+import spray.json._
 
 import scala.io.StdIn
 
 import scala.concurrent.Future
 
-object WebServer {
+object WebServer extends App with appJSONProtocol with SprayJsonSupport {
 
       // Needed to run the route
       implicit val system = ActorSystem()
@@ -24,6 +26,36 @@ object WebServer {
 
       // Needed for the future map/flatmap in the end and future in fetchCampaign and matchBid
       implicit val executionContext = system.dispatcher
+      // Campaign protocols
+      case class Campaign(id: Int, country: String, targeting: Targeting, banners: List[Banner], bid: Double)
+      case class Targeting(targetedSiteIds: Seq[String])
+      case class Banner(id: Int, src: String, width: Int, height: Int)
+
+
+      // Bid models
+      case class BidRequest(id: String, imp: Option[List[Impression]], site:Site, user: Option[User], device: Option[Device])
+      case class BidResponse(id: String, bidRequestId: String, price: Double, adid:Option[String], banner: Option[Banner])
+
+      // Models for Datatypes
+      case class Impression(id: String, wmin: Option[Int], wmax: Option[Int], w: Option[Int], hmin: Option[Int], hmax: Option[Int], h: Option[Int], bidFloor: Option[Double])
+      case class Site(id: Int, domain: String)
+      case class User(id: String, geo: Option[Geo])
+      case class Device(id: String, geo: Option[Geo])
+      case class Geo(country: Option[String])
+
+      trait appJSONProtocol extends DefaultJsonProtocol {
+      // Formats for unmarshalling and marshalling
+      implicit val resFormat = jsonFormat2(BidResponse)
+      implicit val bidFormat = jsonFormat1(BidRequest)
+      implicit val cFormat = jsonFormat1(Campaign)
+      implicit val tFormat = jsonFormat1(Targeting)
+      implicit val bFormat = jsonFormat1(Banner)
+      implicit val iFormat = jsonFormat1(Impression)
+      implicit val sFormat = jsonFormat1(Site)
+      implicit val uFormat = jsonFormat1(User)
+      implicit val dFormat = jsonFormat1(Device)
+      implicit val gFormat = jsonFormat1(Geo)
+      }
       
       // Storage for active campaigns
       val activeCampaigns = Seq(
@@ -47,27 +79,6 @@ object WebServer {
 
       // Storage for banners found
       var banners: List[BidResponse] = Nil
-
-      // Campaign protocols
-      case class Campaign(id: Int, country: String, targeting: Targeting, banners: List[Banner], bid: Double)
-      case class Targeting(targetedSiteIds: Seq[String])
-      case class Banner(id: Int, src: String, width: Int, height: Int)
-
-
-      // Bid models
-      case class BidRequest(id: String, imp: Option[List[Impression]], site:Site, user: Option[User], device: Option[Device])
-      case class BidResponse(id: String, bidRequestId: String, price: Double, adid:Option[String], banner: Option[Banner])
-
-      // Models for Datatypes
-      case class Impression(id: String, wmin: Option[Int], wmax: Option[Int], w: Option[Int], hmin: Option[Int], hmax: Option[Int], h: Option[Int], bidFloor: Option[Double])
-      case class Site(id: Int, domain: String)
-      case class User(id: String, geo: Option[Geo])
-      case class Device(id: String, geo: Option[Geo])
-      case class Geo(country: Option[String])
-
-      // Formats for unmarshalling and marshalling
-      implicit val resFormat = jsonFormat2(BidResponse)
-      implicit val bidFormat = jsonFormat1(BidRequest)
 
       // Fetch Response results
       def fetchBanners(): Future[Option[BidResponse]] = Future {
@@ -222,7 +233,7 @@ object WebServer {
         Future { Done }
       }
 
-      def main(args: Array[String]) {
+      //def main(args: Array[String]) {
 
         val route: Route =
           get {
@@ -239,10 +250,8 @@ object WebServer {
           } ~
             post {
               path("bid") {
-                entity(as[String]) { bid_request =>
-                  // Convert request to BidRequest format
-                  val convertBid = BidRequest(bid_request.id, bid_request.imp, bid_request.site, bid_request.user, bid_request.device)
-                  val matched: Future[Done] = processBid(convertBid) // Pass request for processing
+                entity(as[BidRequest]) { bid_request =>
+                  val matched: Future[Done] = processBid(bid_request)
                   onComplete(matched) { done =>
                     complete("bid matched")
                   }
@@ -257,5 +266,5 @@ object WebServer {
           .flatMap(_.unbind()) // trigger unbinding from the port
           .onComplete(_ ⇒ system.terminate()) // and shutdown when done
 
-      }
+      //}
 }

@@ -2170,3 +2170,283 @@ WARNING: Unmatched cancel notification for request id 4614
 [0m2021.09.20 12:32:41 WARN  no build target for: D:\Studio\Work\Eskimi\biddingagent\bidding\build.sbt[0m
 Sep 20, 2021 12:32:43 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
 WARNING: Unmatched cancel notification for request id 4623
+[0m2021.09.20 16:13:21 INFO  Started: Metals version 0.10.7 in workspace 'D:\Studio\Work\Eskimi\biddingagent\bidding' for client Visual Studio Code 1.60.1.[0m
+[0m2021.09.20 16:13:27 INFO  time: initialize in 6.86s[0m
+[0m2021.09.20 16:13:41 WARN  Build server is not auto-connectable.[0m
+[0m2021.09.20 16:13:42 INFO  skipping build import with status 'Requested'[0m
+[0m2021.09.21 10:11:22 INFO  Started: Metals version 0.10.7 in workspace 'D:\Studio\Work\Eskimi\biddingagent\bidding' for client Visual Studio Code 1.60.1.[0m
+[0m2021.09.21 10:11:27 INFO  time: initialize in 4.62s[0m
+[0m2021.09.21 10:11:32 WARN  Build server is not auto-connectable.[0m
+[0m2021.09.21 10:11:34 INFO  skipping build import with status 'Requested'[0m
+[0m2021.09.21 10:14:13 INFO  shutting down Metals[0m
+[0m2021.09.21 12:45:47 INFO  Started: Metals version 0.10.7 in workspace 'D:\Studio\Work\Eskimi\biddingagent\bidding' for client Visual Studio Code 1.60.1.[0m
+[0m2021.09.21 12:45:52 INFO  time: initialize in 5.51s[0m
+[0m2021.09.21 12:45:57 WARN  Build server is not auto-connectable.[0m
+[0m2021.09.21 12:45:57 WARN  no build target for: D:\Studio\Work\Eskimi\biddingagent\bidding\src\main\scala\com\example\QuickstartApp.scala[0m
+[0m2021.09.21 12:45:58 INFO  skipping build import with status 'Requested'[0m
+[0m2021.09.21 12:47:33 INFO  no build target: using presentation compiler with only scala-library: 2.12.15[0m
+Sep 21, 2021 12:47:34 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2
+Sep 21, 2021 12:47:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9
+Sep 21, 2021 12:47:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 15
+Sep 21, 2021 12:47:36 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 35
+Sep 21, 2021 12:47:36 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 40
+Sep 21, 2021 12:47:36 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 43
+Sep 21, 2021 12:47:36 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 44
+Sep 21, 2021 12:47:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 64
+Sep 21, 2021 12:47:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 70
+Sep 21, 2021 12:47:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 88
+Sep 21, 2021 12:47:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 100
+Sep 21, 2021 12:47:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 98
+Sep 21, 2021 12:47:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 113
+Sep 21, 2021 12:47:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 123
+Sep 21, 2021 12:47:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 111
+Sep 21, 2021 12:47:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 124
+Sep 21, 2021 12:47:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 136
+Sep 21, 2021 12:47:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 118
+Sep 21, 2021 12:47:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 145
+Sep 21, 2021 12:47:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 143
+Sep 21, 2021 12:47:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 159
+Sep 21, 2021 12:47:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 169
+Sep 21, 2021 12:47:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 171
+Sep 21, 2021 12:47:39 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 181
+Sep 21, 2021 12:47:39 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 179
+Sep 21, 2021 12:47:39 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 185
+Sep 21, 2021 12:47:39 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 198
+[0m2021.09.21 12:47:52 INFO  time: code lens generation in 10s[0m
+[0m2021.09.21 12:47:52 INFO  time: code lens generation in 2.51s[0m
+[0m2021.09.21 12:47:52 INFO  time: code lens generation in 1.14s[0m
+[0m2021.09.21 12:47:52 INFO  time: code lens generation in 6.03s[0m
+[0m2021.09.21 12:47:52 INFO  time: code lens generation in 4.75s[0m
+[0m2021.09.21 12:47:52 INFO  time: code lens generation in 5.26s[0m
+[0m2021.09.21 12:47:52 INFO  time: code lens generation in 4.1s[0m
+[0m2021.09.21 12:47:52 INFO  time: code lens generation in 8.49s[0m
+[0m2021.09.21 12:47:52 INFO  time: code lens generation in 2.98s[0m
+[0m2021.09.21 12:47:52 INFO  time: code lens generation in 1.85s[0m
+[0m2021.09.21 12:47:52 INFO  time: code lens generation in 13s[0m
+[0m2021.09.21 12:47:52 INFO  time: code lens generation in 13s[0m
+[0m2021.09.21 12:47:52 INFO  time: code lens generation in 13s[0m
+[0m2021.09.21 12:47:52 INFO  time: code lens generation in 13s[0m
+[0m2021.09.21 12:47:52 INFO  time: code lens generation in 13s[0m
+[0m2021.09.21 12:47:52 INFO  time: code lens generation in 13s[0m
+[0m2021.09.21 12:47:52 INFO  time: code lens generation in 13s[0m
+[0m2021.09.21 12:47:52 INFO  time: code lens generation in 13s[0m
+[0m2021.09.21 12:47:52 INFO  time: code lens generation in 13s[0m
+[0m2021.09.21 12:47:52 INFO  time: code lens generation in 13s[0m
+[0m2021.09.21 12:47:52 INFO  time: code lens generation in 14s[0m
+[0m2021.09.21 12:47:52 INFO  time: code lens generation in 14s[0m
+[0m2021.09.21 12:47:52 INFO  time: code lens generation in 14s[0m
+[0m2021.09.21 12:47:52 INFO  time: code lens generation in 14s[0m
+[0m2021.09.21 12:47:52 INFO  time: code lens generation in 14s[0m
+[0m2021.09.21 12:47:52 INFO  time: code lens generation in 14s[0m
+[0m2021.09.21 12:47:52 INFO  time: code lens generation in 14s[0m
+[0m2021.09.21 12:47:52 INFO  time: code lens generation in 14s[0m
+[0m2021.09.21 12:47:52 INFO  time: code lens generation in 15s[0m
+[0m2021.09.21 12:47:52 INFO  time: code lens generation in 15s[0m
+[0m2021.09.21 12:47:52 INFO  time: code lens generation in 15s[0m
+[0m2021.09.21 12:47:52 INFO  time: code lens generation in 15s[0m
+[0m2021.09.21 12:47:52 INFO  time: code lens generation in 15s[0m
+[0m2021.09.21 12:47:52 INFO  time: code lens generation in 15s[0m
+[0m2021.09.21 12:47:52 INFO  time: code lens generation in 15s[0m
+[0m2021.09.21 12:47:52 INFO  time: code lens generation in 15s[0m
+[0m2021.09.21 12:47:52 INFO  time: code lens generation in 15s[0m
+[0m2021.09.21 12:47:52 INFO  time: code lens generation in 15s[0m
+[0m2021.09.21 12:47:52 INFO  time: code lens generation in 15s[0m
+[0m2021.09.21 12:47:52 INFO  time: code lens generation in 16s[0m
+[0m2021.09.21 12:47:53 INFO  time: code lens generation in 16s[0m
+[0m2021.09.21 12:47:53 INFO  time: code lens generation in 16s[0m
+[0m2021.09.21 12:47:53 INFO  time: code lens generation in 16s[0m
+[0m2021.09.21 12:47:53 INFO  time: code lens generation in 16s[0m
+[0m2021.09.21 12:47:53 INFO  time: code lens generation in 16s[0m
+[0m2021.09.21 12:47:53 INFO  time: code lens generation in 16s[0m
+[0m2021.09.21 12:47:53 INFO  time: code lens generation in 16s[0m
+[0m2021.09.21 12:47:53 INFO  time: code lens generation in 17s[0m
+[0m2021.09.21 12:47:53 INFO  time: code lens generation in 17s[0m
+[0m2021.09.21 12:47:53 INFO  time: code lens generation in 17s[0m
+[0m2021.09.21 12:47:53 INFO  time: code lens generation in 17s[0m
+[0m2021.09.21 12:47:53 INFO  time: code lens generation in 17s[0m
+[0m2021.09.21 12:47:53 INFO  time: code lens generation in 17s[0m
+[0m2021.09.21 12:47:53 INFO  time: code lens generation in 1m53s[0m
+[0m2021.09.21 12:48:48 WARN  no build target for: D:\Studio\Work\Eskimi\biddingagent\bidding\src\main\scala\com\example\QuickstartApp.scala[0m
+[0m2021.09.21 12:55:00 WARN  no build target for: D:\Studio\Work\Eskimi\biddingagent\bidding\src\main\scala\com\example\JsonFormats.scala[0m
+Sep 21, 2021 12:55:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 386
+Sep 21, 2021 12:55:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 387
+Sep 21, 2021 12:57:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 392
+Sep 21, 2021 12:57:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 393
+[0m2021.09.21 12:57:14 WARN  no build target for: D:\Studio\Work\Eskimi\biddingagent\bidding\src\test\scala\com\example\UserRoutesSpec.scala[0m
+Sep 21, 2021 12:57:33 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.ArrayIndexOutOfBoundsException: Index 82 out of bounds for length 82
+java.util.concurrent.CompletionException: java.lang.ArrayIndexOutOfBoundsException: Index 82 out of bounds for length 82
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:346)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:704)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2152)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+Caused by: java.lang.ArrayIndexOutOfBoundsException: Index 82 out of bounds for length 82
+	at scala.meta.internal.metals.formatting.MultilineString.doubleQuoteNotClosed(MultilineString.scala:229)
+	at scala.meta.internal.metals.formatting.MultilineString.contribute(MultilineString.scala:385)
+	at scala.meta.internal.metals.formatting.OnTypeFormattingProvider.$anonfun$format$2(OnTypeFormattingProvider.scala:68)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionList.loop$1(MetalsEnrichments.scala:224)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionList.acceptFirst(MetalsEnrichments.scala:232)
+	at scala.meta.internal.metals.formatting.OnTypeFormattingProvider.$anonfun$format$1(OnTypeFormattingProvider.scala:67)
+	at scala.Option.map(Option.scala:230)
+	at scala.meta.internal.metals.formatting.OnTypeFormattingProvider.format(OnTypeFormattingProvider.scala:53)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$onTypeFormatting$1(MetalsLanguageServer.scala:1393)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$apply$2(CancelTokens.scala:26)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	... 4 more
+
+Sep 21, 2021 12:57:34 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.ArrayIndexOutOfBoundsException: Index 83 out of bounds for length 82
+java.util.concurrent.CompletionException: java.lang.ArrayIndexOutOfBoundsException: Index 83 out of bounds for length 82
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:346)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:704)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2152)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+Caused by: java.lang.ArrayIndexOutOfBoundsException: Index 83 out of bounds for length 82
+	at scala.meta.internal.metals.formatting.MultilineString.doubleQuoteNotClosed(MultilineString.scala:229)
+	at scala.meta.internal.metals.formatting.MultilineString.contribute(MultilineString.scala:385)
+	at scala.meta.internal.metals.formatting.OnTypeFormattingProvider.$anonfun$format$2(OnTypeFormattingProvider.scala:68)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionList.loop$1(MetalsEnrichments.scala:224)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionList.acceptFirst(MetalsEnrichments.scala:232)
+	at scala.meta.internal.metals.formatting.OnTypeFormattingProvider.$anonfun$format$1(OnTypeFormattingProvider.scala:67)
+	at scala.Option.map(Option.scala:230)
+	at scala.meta.internal.metals.formatting.OnTypeFormattingProvider.format(OnTypeFormattingProvider.scala:53)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$onTypeFormatting$1(MetalsLanguageServer.scala:1393)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$apply$2(CancelTokens.scala:26)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	... 4 more
+
+Sep 21, 2021 12:57:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+Caused by: java.lang.reflect.InvocationTargetException
+	at jdk.internal.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: 84 is not a valid line number, allowed [0..82]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:59)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:121)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$4(Trees.scala:77)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:76)
+	at scala.meta.internal.metals.codeactions.PatternMatchRefactor.contribute(PatternMatchRefactor.scala:96)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:62)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:61)
+	at scala.collection.immutable.List.collect(List.scala:323)
+	at scala.meta.internal.metals.CodeActionProvider.codeActions(CodeActionProvider.scala:61)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeAction$1(MetalsLanguageServer.scala:1518)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.codeAction(MetalsLanguageServer.scala:1517)
+	... 15 more
+
+[0m2021.09.21 12:57:37 WARN  no build target for: D:\Studio\Work\Eskimi\biddingagent\bidding\src\test\scala\com\example\UserRoutesSpec.scala[0m
+Sep 21, 2021 12:57:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 438
+[0m2021.09.21 13:00:08 INFO  shutting down Metals[0m
+[0m2021.09.21 16:18:13 INFO  Started: Metals version 0.10.7 in workspace 'D:\Studio\Work\Eskimi\biddingagent\bidding' for client Visual Studio Code 1.60.1.[0m
+[0m2021.09.21 16:18:17 INFO  time: initialize in 3.85s[0m
+[0m2021.09.21 16:18:29 WARN  Build server is not auto-connectable.[0m
+[0m2021.09.21 16:18:29 WARN  no build target for: D:\Studio\Work\Eskimi\biddingagent\bidding\src\test\scala\com\example\UserRoutesSpec.scala[0m
+[0m2021.09.21 16:18:29 WARN  no build target for: D:\Studio\Work\Eskimi\biddingagent\bidding\src\main\scala\com\example\QuickstartApp.scala[0m
+[0m2021.09.21 16:18:31 INFO  skipping build import with status 'Requested'[0m
+[0m2021.09.21 16:19:32 INFO  no build target: using presentation compiler with only scala-library: 2.12.15[0m
+Sep 21, 2021 4:19:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6
+[0m2021.09.21 16:19:50 INFO  time: code lens generation in 56s[0m
+[0m2021.09.21 16:19:50 INFO  time: code lens generation in 1m19s[0m
+Sep 21, 2021 4:19:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7
+Sep 21, 2021 4:19:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10
+Sep 21, 2021 4:26:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 61
+[0m2021.09.21 16:27:25 WARN  no build target for: D:\Studio\Work\Eskimi\biddingagent\bidding\src\main\scala\com\example\QuickstartApp.scala[0m
+[0m2021.09.21 16:50:39 INFO  time: code lens generation in 1.59s[0m
+[0m2021.09.21 16:50:50 INFO  time: code lens generation in 2.16s[0m
+[0m2021.09.21 16:53:38 WARN  no build target for: D:\Studio\Work\Eskimi\biddingagent\bidding\src\main\scala\com\example\QuickstartApp.scala[0m
+[0m2021.09.21 17:46:05 INFO  Started: Metals version 0.10.7 in workspace 'D:\Studio\Work\Eskimi\biddingagent\bidding' for client Visual Studio Code 1.60.1.[0m
+[0m2021.09.21 17:46:14 INFO  time: initialize in 9.06s[0m
+[0m2021.09.21 17:46:23 WARN  Build server is not auto-connectable.[0m
+[0m2021.09.21 17:46:24 WARN  no build target for: D:\Studio\Work\Eskimi\biddingagent\bidding\src\main\scala\com\example\QuickstartApp.scala[0m
+[0m2021.09.21 17:46:26 INFO  skipping build import with status 'Requested'[0m
+[0m2021.09.21 17:46:55 INFO  no build target: using presentation compiler with only scala-library: 2.12.15[0m
+[0m2021.09.21 17:47:04 INFO  time: code lens generation in 38s[0m
+[0m2021.09.21 20:49:45 INFO  Started: Metals version 0.10.7 in workspace 'D:\Studio\Work\Eskimi\biddingagent\bidding' for client Visual Studio Code 1.60.1.[0m
+[0m2021.09.21 20:49:53 INFO  time: initialize in 8.86s[0m
+[0m2021.09.21 20:50:12 WARN  Build server is not auto-connectable.[0m
+[0m2021.09.21 20:50:13 WARN  no build target for: D:\Studio\Work\Eskimi\biddingagent\bidding\src\main\scala\com\example\QuickstartApp.scala[0m
+[0m2021.09.21 20:50:16 INFO  skipping build import with status 'Requested'[0m
+[0m2021.09.21 20:52:43 INFO  no build target: using presentation compiler with only scala-library: 2.12.15[0m
+[0m2021.09.21 20:53:10 INFO  time: code lens generation in 2m56s[0m
+[0m2021.09.21 23:27:41 INFO  shutting down Metals[0m

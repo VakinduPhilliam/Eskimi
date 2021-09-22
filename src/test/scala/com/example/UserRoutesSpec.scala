@@ -1,5 +1,7 @@
 package com.example
 
+/*
+
 //#bid-routes-spec
 //#test-top
 import akka.actor.testkit.typed.scaladsl.ActorTestKit
@@ -78,3 +80,7 @@ class UserRoutesSpec extends AnyWordSpec with Matchers with ScalaFutures with Sc
 }
 //#set-up
 //#bid-routes-spec
+
+
+*/
+
