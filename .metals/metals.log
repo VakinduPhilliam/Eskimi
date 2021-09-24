@@ -2450,3 +2450,363 @@ WARNING: Unmatched cancel notification for request id 61
 [0m2021.09.21 20:52:43 INFO  no build target: using presentation compiler with only scala-library: 2.12.15[0m
 [0m2021.09.21 20:53:10 INFO  time: code lens generation in 2m56s[0m
 [0m2021.09.21 23:27:41 INFO  shutting down Metals[0m
+[0m2021.09.22 06:15:52 INFO  Started: Metals version 0.10.7 in workspace 'D:\Studio\Work\Eskimi\biddingagent\bidding' for client Visual Studio Code 1.60.1.[0m
+[0m2021.09.22 06:15:56 INFO  time: initialize in 4.28s[0m
+[0m2021.09.22 06:16:05 WARN  Build server is not auto-connectable.[0m
+[0m2021.09.22 06:16:05 WARN  no build target for: D:\Studio\Work\Eskimi\biddingagent\bidding\src\main\scala\com\example\QuickstartApp.scala[0m
+[0m2021.09.22 06:16:06 INFO  skipping build import with status 'Requested'[0m
+[0m2021.09.22 06:16:39 INFO  no build target: using presentation compiler with only scala-library: 2.12.15[0m
+[0m2021.09.22 06:16:54 INFO  time: code lens generation in 48s[0m
+[0m2021.09.22 06:16:54 INFO  time: code lens generation in 48s[0m
+[0m2021.09.22 06:20:35 INFO  time: code lens generation in 1.59s[0m
+[0m2021.09.22 06:24:51 WARN  no build target for: D:\Studio\Work\Eskimi\biddingagent\bidding\src\main\scala\com\example\QuickstartApp.scala[0m
+[0m2021.09.22 06:24:54 INFO  time: code lens generation in 3.65s[0m
+[0m2021.09.22 06:27:21 WARN  no build target for: D:\Studio\Work\Eskimi\biddingagent\bidding\src\main\scala\com\example\QuickstartApp.scala[0m
+[0m2021.09.22 06:33:20 WARN  no build target for: D:\Studio\Work\Eskimi\biddingagent\bidding\src\main\scala\com\example\QuickstartApp.scala[0m
+Sep 22, 2021 6:33:21 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2FD%3A%2FStudio%2FWork%2FEskimi%2Fbiddingagent%2Fbidding%2Fsrc%2Fmain%2Fscala%2Fcom%2Fexample%2FQuickstartApp.scala:22: error: expected start of definition
+      implicit val system = ActorSystem()
+               ^
+file%3A%2F%2F%2FD%3A%2FStudio%2FWork%2FEskimi%2Fbiddingagent%2Fbidding%2Fsrc%2Fmain%2Fscala%2Fcom%2Fexample%2FQuickstartApp.scala:22: error: expected start of definition
+      implicit val system = ActorSystem()
+               ^
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:4566)
+	at scala.meta.internal.parsers.ScalametaParser.topLevelTmplDef(ScalametaParser.scala:4540)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$topStat$1.applyOrElse(ScalametaParser.scala:5079)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$topStat$1.applyOrElse(ScalametaParser.scala:5067)
+	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:38)
+	at scala.meta.internal.parsers.ScalametaParser.statSeq(ScalametaParser.scala:5057)
+	at scala.meta.internal.parsers.ScalametaParser.topStatSeq(ScalametaParser.scala:5066)
+	at scala.meta.internal.parsers.ScalametaParser.bracelessPackageStats$1(ScalametaParser.scala:5289)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$12(ScalametaParser.scala:5295)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:888)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:5295)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:888)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:922)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:5256)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:5239)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:888)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:922)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:5238)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:5244)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$2(ScalametaParser.scala:143)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:53)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:143)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.internal.parsers.ScalametaParser$$anon$264.apply(ScalametaParser.scala:5308)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:201)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:51)
+
+Sep 22, 2021 6:33:24 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2FD%3A%2FStudio%2FWork%2FEskimi%2Fbiddingagent%2Fbidding%2Fsrc%2Fmain%2Fscala%2Fcom%2Fexample%2FQuickstartApp.scala:22: error: expected start of definition
+      implicit val system = ActorSystem()
+               ^
+file%3A%2F%2F%2FD%3A%2FStudio%2FWork%2FEskimi%2Fbiddingagent%2Fbidding%2Fsrc%2Fmain%2Fscala%2Fcom%2Fexample%2FQuickstartApp.scala:22: error: expected start of definition
+      implicit val system = ActorSystem()
+               ^
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:4566)
+	at scala.meta.internal.parsers.ScalametaParser.topLevelTmplDef(ScalametaParser.scala:4540)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$topStat$1.applyOrElse(ScalametaParser.scala:5079)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$topStat$1.applyOrElse(ScalametaParser.scala:5067)
+	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:38)
+	at scala.meta.internal.parsers.ScalametaParser.statSeq(ScalametaParser.scala:5057)
+	at scala.meta.internal.parsers.ScalametaParser.topStatSeq(ScalametaParser.scala:5066)
+	at scala.meta.internal.parsers.ScalametaParser.bracelessPackageStats$1(ScalametaParser.scala:5289)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$12(ScalametaParser.scala:5295)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:888)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:5295)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:888)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:922)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:5256)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:5239)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:888)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:922)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:5238)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:5244)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$2(ScalametaParser.scala:143)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:53)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:143)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.internal.parsers.ScalametaParser$$anon$264.apply(ScalametaParser.scala:5308)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:201)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:51)
+
+[0m2021.09.22 06:33:24 INFO  time: code lens generation in 3.19s[0m
+Sep 22, 2021 6:33:38 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2FD%3A%2FStudio%2FWork%2FEskimi%2Fbiddingagent%2Fbidding%2Fsrc%2Fmain%2Fscala%2Fcom%2Fexample%2FQuickstartApp.scala:22: error: expected start of definition
+      implicit val system = ActorSystem()
+               ^
+file%3A%2F%2F%2FD%3A%2FStudio%2FWork%2FEskimi%2Fbiddingagent%2Fbidding%2Fsrc%2Fmain%2Fscala%2Fcom%2Fexample%2FQuickstartApp.scala:22: error: expected start of definition
+      implicit val system = ActorSystem()
+               ^
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:4566)
+	at scala.meta.internal.parsers.ScalametaParser.topLevelTmplDef(ScalametaParser.scala:4540)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$topStat$1.applyOrElse(ScalametaParser.scala:5079)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$topStat$1.applyOrElse(ScalametaParser.scala:5067)
+	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:38)
+	at scala.meta.internal.parsers.ScalametaParser.statSeq(ScalametaParser.scala:5057)
+	at scala.meta.internal.parsers.ScalametaParser.topStatSeq(ScalametaParser.scala:5066)
+	at scala.meta.internal.parsers.ScalametaParser.bracelessPackageStats$1(ScalametaParser.scala:5289)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$12(ScalametaParser.scala:5295)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:888)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:5295)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:888)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:922)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:5256)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:5239)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:888)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:922)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:5238)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:5244)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$2(ScalametaParser.scala:143)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:53)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:143)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.internal.parsers.ScalametaParser$$anon$264.apply(ScalametaParser.scala:5308)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:201)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:51)
+
+Sep 22, 2021 6:33:40 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 104
+Sep 22, 2021 6:34:03 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2FD%3A%2FStudio%2FWork%2FEskimi%2Fbiddingagent%2Fbidding%2Fsrc%2Fmain%2Fscala%2Fcom%2Fexample%2FQuickstartApp.scala:22: error: expected start of definition
+      implicit val system = ActorSystem()
+               ^
+file%3A%2F%2F%2FD%3A%2FStudio%2FWork%2FEskimi%2Fbiddingagent%2Fbidding%2Fsrc%2Fmain%2Fscala%2Fcom%2Fexample%2FQuickstartApp.scala:22: error: expected start of definition
+      implicit val system = ActorSystem()
+               ^
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:4566)
+	at scala.meta.internal.parsers.ScalametaParser.topLevelTmplDef(ScalametaParser.scala:4540)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$topStat$1.applyOrElse(ScalametaParser.scala:5079)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$topStat$1.applyOrElse(ScalametaParser.scala:5067)
+	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:38)
+	at scala.meta.internal.parsers.ScalametaParser.statSeq(ScalametaParser.scala:5057)
+	at scala.meta.internal.parsers.ScalametaParser.topStatSeq(ScalametaParser.scala:5066)
+	at scala.meta.internal.parsers.ScalametaParser.bracelessPackageStats$1(ScalametaParser.scala:5289)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$12(ScalametaParser.scala:5295)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:888)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:5295)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:888)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:922)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:5256)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:5239)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:888)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:922)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:5238)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:5244)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$2(ScalametaParser.scala:143)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:53)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:143)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.internal.parsers.ScalametaParser$$anon$264.apply(ScalametaParser.scala:5308)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:201)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:51)
+
+[0m2021.09.22 06:34:05 WARN  no build target for: D:\Studio\Work\Eskimi\biddingagent\bidding\src\main\scala\com\example\QuickstartApp.scala[0m
+[0m2021.09.22 06:37:01 WARN  no build target for: D:\Studio\Work\Eskimi\biddingagent\bidding\src\main\scala\com\example\QuickstartApp.scala[0m
+[0m2021.09.22 06:37:25 WARN  no build target for: D:\Studio\Work\Eskimi\biddingagent\bidding\src\main\scala\com\example\QuickstartApp.scala[0m
+[0m2021.09.22 06:37:25 WARN  no build target for: D:\Studio\Work\Eskimi\biddingagent\bidding\src\main\scala\com\example\QuickstartApp.scala[0m
+[0m2021.09.22 06:40:12 WARN  no build target for: D:\Studio\Work\Eskimi\biddingagent\bidding\src\main\scala\com\example\QuickstartApp.scala[0m
+[0m2021.09.22 07:43:05 WARN  no build target for: D:\Studio\Work\Eskimi\biddingagent\bidding\src\main\scala\com\example\QuickstartApp.scala[0m
+Sep 22, 2021 7:43:16 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 186
+Sep 22, 2021 7:43:17 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 189
+Sep 22, 2021 7:43:17 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 190
+[0m2021.09.22 07:43:19 INFO  time: code lens generation in 1.78s[0m
+[0m2021.09.22 09:48:23 INFO  time: code lens generation in 2.18s[0m
+[0m2021.09.22 10:02:17 ERROR text document: file:///d:/Studio/Work/Eskimi/biddingagent/bidding/src/main/scala/com/example/QuickstartApp.scala
+java.nio.file.NoSuchFileException: d:\Studio\Work\Eskimi\biddingagent\bidding\src\main\scala\com\example\QuickstartApp.scala
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:235)
+	at java.nio.file.Files.newByteChannel(Files.java:375)
+	at java.nio.file.Files.newByteChannel(Files.java:426)
+	at java.nio.file.Files.readAllBytes(Files.java:3272)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:45)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:24)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.$anonfun$textDocument$2(InteractiveSemanticdbs.scala:85)
+	at scala.Option.getOrElse(Option.scala:189)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.$anonfun$textDocument$1(InteractiveSemanticdbs.scala:85)
+	at java.util.HashMap.compute(HashMap.java:1320)
+	at java.util.Collections$SynchronizedMap.compute(Collections.java:2732)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.textDocument(InteractiveSemanticdbs.scala:84)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.textDocument(InteractiveSemanticdbs.scala:58)
+	at scala.meta.internal.metals.AggregateSemanticdbs.loop$1(AggregateSemanticdbs.scala:30)
+	at scala.meta.internal.metals.AggregateSemanticdbs.textDocument(AggregateSemanticdbs.scala:36)
+	at scala.meta.internal.metals.CodeLensProvider.findLenses(CodeLensProvider.scala:22)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeLens$2(MetalsLanguageServer.scala:1531)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeLens$1(MetalsLanguageServer.scala:1529)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$apply$2(CancelTokens.scala:26)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.lang.Thread.run(Thread.java:832)
+[0m
+[0m2021.09.22 10:02:28 INFO  time: code lens generation in 15s[0m
+[0m2021.09.22 10:02:28 WARN  no build target for: D:\Studio\Work\Eskimi\biddingagent\bidding\src\main\scala\com\example\WebServer.scala[0m
+Sep 22, 2021 10:02:50 AM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+[0m2021.09.22 10:03:09 ERROR text document: file:///D:/Studio/Work/Eskimi/biddingagent/bidding/src/main/scala/com/example/WebServer.scala
+java.util.concurrent.CancellationException
+	at java.util.concurrent.CompletableFuture.cancel(CompletableFuture.java:2468)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$4(CompilerAccess.scala:217)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$4$adapted(CompilerAccess.scala:214)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.lang.Thread.run(Thread.java:832)
+[0m
+[0m2021.09.22 10:03:23 WARN  no build target for: D:\Studio\Work\Eskimi\biddingagent\bidding\build.sbt[0m
+[0m2021.09.22 10:03:31 ERROR text document: file:///D:/Studio/Work/Eskimi/biddingagent/bidding/src/main/scala/com/example/WebServer.scala
+java.util.concurrent.CancellationException
+	at java.util.concurrent.CompletableFuture.cancel(CompletableFuture.java:2468)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$4(CompilerAccess.scala:217)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$4$adapted(CompilerAccess.scala:214)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.lang.Thread.run(Thread.java:832)
+[0m
+[0m2021.09.22 10:03:51 ERROR text document: file:///D:/Studio/Work/Eskimi/biddingagent/bidding/build.sbt
+java.util.concurrent.TimeoutException
+	at java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1950)
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2085)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.compile(InteractiveSemanticdbs.scala:191)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.$anonfun$textDocument$1(InteractiveSemanticdbs.scala:88)
+	at java.util.HashMap.compute(HashMap.java:1320)
+	at java.util.Collections$SynchronizedMap.compute(Collections.java:2732)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.textDocument(InteractiveSemanticdbs.scala:84)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.textDocument(InteractiveSemanticdbs.scala:58)
+	at scala.meta.internal.metals.AggregateSemanticdbs.loop$1(AggregateSemanticdbs.scala:30)
+	at scala.meta.internal.metals.AggregateSemanticdbs.textDocument(AggregateSemanticdbs.scala:36)
+	at scala.meta.internal.decorations.SyntheticsDecorationProvider.currentDocument(SyntheticsDecorationProvider.scala:256)
+	at scala.meta.internal.decorations.SyntheticsDecorationProvider.publishSynthetics(SyntheticsDecorationProvider.scala:74)
+	at scala.meta.internal.metals.MetalsLanguageServer.didFocus(MetalsLanguageServer.scala:1048)
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:564)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.lang.Thread.run(Thread.java:832)
+[0m
+Sep 22, 2021 10:03:52 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 215
+Sep 22, 2021 10:03:52 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 216
+Sep 22, 2021 10:03:52 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 219
+[0m2021.09.22 10:03:52 WARN  no build target for: D:\Studio\Work\Eskimi\biddingagent\bidding\src\main\scala\com\example\WebServer.scala[0m
+[0m2021.09.22 10:04:07 INFO  time: code lens generation in 57s[0m
+[0m2021.09.22 10:04:07 INFO  time: code lens generation in 15s[0m
+Sep 22, 2021 10:04:07 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 220
+[0m2021.09.22 10:06:30 ERROR text document: file:///d:/Studio/Work/Eskimi/biddingagent/bidding/src/main/scala/com/example/WebServer.scala
+java.nio.file.NoSuchFileException: d:\Studio\Work\Eskimi\biddingagent\bidding\src\main\scala\com\example\WebServer.scala
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:235)
+	at java.nio.file.Files.newByteChannel(Files.java:375)
+	at java.nio.file.Files.newByteChannel(Files.java:426)
+	at java.nio.file.Files.readAllBytes(Files.java:3272)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:45)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:24)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.$anonfun$textDocument$2(InteractiveSemanticdbs.scala:85)
+	at scala.Option.getOrElse(Option.scala:189)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.$anonfun$textDocument$1(InteractiveSemanticdbs.scala:85)
+	at java.util.HashMap.compute(HashMap.java:1320)
+	at java.util.Collections$SynchronizedMap.compute(Collections.java:2732)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.textDocument(InteractiveSemanticdbs.scala:84)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.textDocument(InteractiveSemanticdbs.scala:58)
+	at scala.meta.internal.metals.AggregateSemanticdbs.loop$1(AggregateSemanticdbs.scala:30)
+	at scala.meta.internal.metals.AggregateSemanticdbs.textDocument(AggregateSemanticdbs.scala:36)
+	at scala.meta.internal.metals.CodeLensProvider.findLenses(CodeLensProvider.scala:22)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeLens$2(MetalsLanguageServer.scala:1531)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeLens$1(MetalsLanguageServer.scala:1529)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$apply$2(CancelTokens.scala:26)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.lang.Thread.run(Thread.java:832)
+[0m
+[0m2021.09.22 10:06:32 WARN  no build target for: D:\Studio\Work\Eskimi\biddingagent\bidding\src\main\scala\com\example\QuickstartApp.scala[0m
+Sep 22, 2021 10:06:33 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 228
+[0m2021.09.22 10:13:05 WARN  no build target for: D:\Studio\Work\Eskimi\biddingagent\bidding\src\main\scala\com\example\QuickstartApp VERSION II - ORIGINAL.scala[0m
+[0m2021.09.22 10:13:11 WARN  no build target for: D:\Studio\Work\Eskimi\biddingagent\bidding\src\main\scala\com\example\QuickstartApp.scala[0m
+[0m2021.09.22 10:13:54 WARN  no build target for: D:\Studio\Work\Eskimi\biddingagent\bidding\src\main\scala\com\example\QuickstartApp VERSION II - ORIGINAL.scala[0m
+[0m2021.09.22 10:13:56 WARN  no build target for: D:\Studio\Work\Eskimi\biddingagent\bidding\src\main\scala\com\example\QuickstartApp.scala[0m
+[0m2021.09.22 10:14:14 WARN  no build target for: D:\Studio\Work\Eskimi\biddingagent\bidding\src\main\scala\com\example\QuickstartApp VERSION II - ORIGINAL.scala[0m
+[0m2021.09.22 10:14:25 WARN  no build target for: D:\Studio\Work\Eskimi\biddingagent\bidding\src\main\scala\com\example\QuickstartApp.scala[0m
+Sep 22, 2021 10:14:25 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 274
+[0m2021.09.22 10:14:27 WARN  no build target for: D:\Studio\Work\Eskimi\biddingagent\bidding\src\main\scala\com\example\QuickstartApp VERSION II - ORIGINAL.scala[0m
+[0m2021.09.22 10:14:41 WARN  no build target for: D:\Studio\Work\Eskimi\biddingagent\bidding\src\main\scala\com\example\QuickstartApp VERSION II - ORIGINAL.scala[0m
+[0m2021.09.22 10:15:29 WARN  no build target for: D:\Studio\Work\Eskimi\biddingagent\bidding\src\main\scala\com\example\QuickstartApp1.scala[0m
+[0m2021.09.22 10:15:30 INFO  time: code lens generation in 1.01s[0m
+Sep 22, 2021 10:15:57 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 333
+[0m2021.09.22 10:16:01 WARN  no build target for: D:\Studio\Work\Eskimi\biddingagent\bidding\src\main\scala\com\example\QuickstartApp1.scala[0m
+[0m2021.09.22 10:16:06 WARN  no build target for: D:\Studio\Work\Eskimi\biddingagent\bidding\src\main\scala\com\example\QuickstartApp.scala[0m
+[0m2021.09.22 10:16:36 WARN  no build target for: D:\Studio\Work\Eskimi\biddingagent\bidding\src\main\scala\com\example\QuickstartApp.scala[0m

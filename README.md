@@ -37,13 +37,6 @@ The result of the request will be seen at the /banners API endpoint.
 GET: http://127.0.0.1:8980/banners
 
 
-## _Postman screenshots of the API Call Request:_
-
-Single Campaign in Seq collection:
-![Postman Scrreenshot of the API Call Request](/assets/Running_800.png)
-
-Multiple Campaigns in Seq collection:
-![Postman Scrreenshot of the API Call Request](/assets/Running_800.png)
 
 ## Bid Request Parameter Validation:
 
