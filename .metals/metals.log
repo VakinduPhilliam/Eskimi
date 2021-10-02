@@ -2810,3 +2810,58 @@ WARNING: Unmatched cancel notification for request id 333
 [0m2021.09.22 10:16:01 WARN  no build target for: D:\Studio\Work\Eskimi\biddingagent\bidding\src\main\scala\com\example\QuickstartApp1.scala[0m
 [0m2021.09.22 10:16:06 WARN  no build target for: D:\Studio\Work\Eskimi\biddingagent\bidding\src\main\scala\com\example\QuickstartApp.scala[0m
 [0m2021.09.22 10:16:36 WARN  no build target for: D:\Studio\Work\Eskimi\biddingagent\bidding\src\main\scala\com\example\QuickstartApp.scala[0m
+[0m2021.09.24 10:20:07 INFO  Started: Metals version 0.10.7 in workspace 'D:\Studio\Work\Eskimi\biddingagent\bidding' for client Visual Studio Code 1.60.2.[0m
+[0m2021.09.24 10:20:11 INFO  time: initialize in 4.12s[0m
+[0m2021.09.24 10:20:21 WARN  Build server is not auto-connectable.[0m
+[0m2021.09.24 10:20:21 WARN  no build target for: D:\Studio\Work\Eskimi\biddingagent\bidding\src\main\scala\com\example\QuickstartApp.scala[0m
+[0m2021.09.24 10:20:23 INFO  skipping build import with status 'Requested'[0m
+[0m2021.09.24 10:20:49 INFO  no build target: using presentation compiler with only scala-library: 2.12.15[0m
+[0m2021.09.30 16:54:39 INFO  Started: Metals version 0.10.7 in workspace 'D:\Studio\Work\Eskimi\biddingagent\bidding' for client Visual Studio Code 1.60.2.[0m
+[0m2021.09.30 16:54:43 INFO  time: initialize in 3.17s[0m
+[0m2021.09.30 16:54:51 WARN  Build server is not auto-connectable.[0m
+[0m2021.09.30 16:54:51 WARN  no build target for: D:\Studio\Work\Eskimi\biddingagent\bidding\src\main\scala\com\example\QuickstartApp.scala[0m
+[0m2021.09.30 16:54:52 INFO  skipping build import with status 'Requested'[0m
+[0m2021.09.30 16:55:32 INFO  no build target: using presentation compiler with only scala-library: 2.12.15[0m
+Sep 30, 2021 4:55:33 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8
+Sep 30, 2021 4:55:33 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9
+Sep 30, 2021 4:55:33 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10
+Sep 30, 2021 4:55:33 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 11
+Sep 30, 2021 4:55:33 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 12
+Sep 30, 2021 4:55:33 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 13
+[0m2021.09.30 16:55:42 INFO  time: code lens generation in 50s[0m
+[0m2021.09.30 16:55:42 INFO  time: code lens generation in 8.36s[0m
+[0m2021.09.30 17:20:24 INFO  time: code lens generation in 8.79s[0m
+Sep 30, 2021 5:20:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 41
+[0m2021.09.30 17:24:09 INFO  time: code lens generation in 1.54s[0m
+[0m2021.09.30 17:24:35 INFO  time: code lens generation in 1.04s[0m
+[0m2021.09.30 17:35:03 INFO  time: code lens generation in 7.83s[0m
+Sep 30, 2021 5:41:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 84
+Sep 30, 2021 5:41:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 87
+[0m2021.09.30 17:41:39 INFO  time: code lens generation in 1.58s[0m
+[0m2021.10.02 17:29:15 INFO  Started: Metals version 0.10.7 in workspace 'D:\Studio\Work\Eskimi\biddingagent\bidding' for client Visual Studio Code 1.60.2.[0m
+[0m2021.10.02 17:29:19 INFO  time: initialize in 4s[0m
+[0m2021.10.02 17:29:32 WARN  Build server is not auto-connectable.[0m
+[0m2021.10.02 17:29:32 INFO  skipping build import with status 'Requested'[0m
+[0m2021.10.02 17:29:36 WARN  no build target for: D:\Studio\Work\Eskimi\biddingagent\bidding\src\main\scala\com\example\QuickstartApp.scala[0m
+[0m2021.10.02 17:30:17 INFO  no build target: using presentation compiler with only scala-library: 2.12.15[0m
+[0m2021.10.02 17:30:46 INFO  time: code lens generation in 27s[0m
+[0m2021.10.02 17:30:46 INFO  time: code lens generation in 1m4s[0m
+[0m2021.10.02 17:30:46 WARN  no build target for: D:\Studio\Work\Eskimi\biddingagent\bidding\src\main\scala\com\example\QuickstartApp.scala[0m
+                                                                                                                                                                                                    [0m2021.10.02 19:52:09 INFO  Started: Metals version 0.10.7 in workspace 'D:\Studio\Work\Eskimi\biddingagent\bidding' for client Visual Studio Code 1.60.2.[0m
+[0m2021.10.02 19:52:14 INFO  time: initialize in 5.11s[0m
+[0m2021.10.02 19:52:23 WARN  Build server is not auto-connectable.[0m
+[0m2021.10.02 19:52:24 WARN  no build target for: D:\Studio\Work\Eskimi\biddingagent\bidding\src\main\scala\com\example\QuickstartApp.scala[0m
+[0m2021.10.02 19:52:25 INFO  skipping build import with status 'Requested'[0m
+[0m2021.10.02 19:53:06 INFO  no build target: using presentation compiler with only scala-library: 2.12.15[0m
+[0m2021.10.02 19:53:22 INFO  time: code lens generation in 48s[0m
+[0m2021.10.02 20:01:56 WARN  no build target for: D:\Studio\Work\Eskimi\biddingagent\bidding\src\main\scala\com\example\QuickstartApp.scala[0m
+[0m2021.10.02 20:02:06 INFO  shutting down Metals[0m

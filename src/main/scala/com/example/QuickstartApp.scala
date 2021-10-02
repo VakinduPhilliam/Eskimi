@@ -66,11 +66,11 @@ object QuickstartApp {
       case class Geo(country: Option[String])
 
       // Formats for unmarshalling and marshalling
-      implicit val resFormat = jsonFormat2(BidResponse)
-      implicit val bidFormat = jsonFormat1(BidRequest)
+      implicit val resFormat = jsonFormat5(BidResponse)
+      implicit val bidFormat = jsonFormat5(BidRequest)
       implicit val cFormat = jsonFormat1(Campaign)
       implicit val tFormat = jsonFormat1(Targeting)
-      implicit val bFormat = jsonFormat1(Banner)
+      implicit val bFormat = jsonFormat4(Banner)
       implicit val iFormat = jsonFormat1(Impression)
       implicit val sFormat = jsonFormat1(Site)
       implicit val uFormat = jsonFormat1(User)
